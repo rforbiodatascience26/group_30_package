@@ -3,23 +3,20 @@ Type: Package
 Title: Molecular biology dogma
 Version: 0.1.0
 Authors@R: c(
-    person(
-      given = "Martina",
-      family = "Ippolito",
-      email = "s260229@dtu.dk",
-      role = c("aut", "cre")),
-    person(
-      given = "Swastika",
-      family = "Sapkota",
-      role = "aut",
-      email = "s260028@dtu.dk"),
-    person(
-      given = "Greta",
-      family = "Gakaite",
-      email = "s260220@dtu.dk",
-      role = "aut"
+    person(given = "Martina",
+          family = "Ippolito",
+          email = "s260229@dtu.dk",
+          role = c("aut", "cre")),
+    person(given = "Swastika",
+          family = "Sapkota",
+          role = "aut",
+          email = "s260028@dtu.dk"),
+    person(given = "Greta",
+          family = "Gakaite",
+          email = "s260220@dtu.dk",
+          role = "aut"
+      )
     )
-  )
 Description: Package containing function to replicate the central dogma of molecular biology
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -27,3 +24,6 @@ LazyData: true
 Depends: 
     R (>= 3.5)
 RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
