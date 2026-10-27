@@ -17,7 +17,7 @@ Authors@R: c(
           role = "aut"
       )
     )
-Description: Package containing function to replicate the central dogma of molecular biology
+Description: Package containing function to replicate the central dogma of molecular biology.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
