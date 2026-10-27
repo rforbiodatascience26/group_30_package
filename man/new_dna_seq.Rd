@@ -2,18 +2,18 @@
 % Please edit documentation in R/new_dna_seq.R
 \name{new_dna_seq}
 \alias{new_dna_seq}
-\title{Function that creates new DNA seq.}
+\title{Function for generating new DNA seq}
 \usage{
 new_dna_seq(number)
 }
 \arguments{
-\item{number}{Number of bases in seq.}
+\item{number}{number of bases in a generated sequence.}
 }
 \value{
-New arbitrary seq.
+the arbitrary dna sequence
 }
 \description{
-Function that creates new DNA seq.
+Function for generating new DNA seq
 }
 \examples{
 new_dna_seq(10)
